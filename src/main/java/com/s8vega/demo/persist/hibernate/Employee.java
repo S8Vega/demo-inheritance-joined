@@ -18,7 +18,7 @@ public class Employee implements java.io.Serializable {
 
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
-    private Long id;
+    Long id;
 
     private String nif;
 
